@@ -29,8 +29,10 @@
 }
 #main-navbar ul li a:hover {
   background-color: rgb(255,255,224);
+  color: black;
 }
 #onpage {
   background-color: rgb(255,255,224);
   text-decoration: underline;
+  color: black;
 }
