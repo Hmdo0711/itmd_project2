@@ -24,7 +24,7 @@
 #main-navbar ul li a {
   display: block;
   padding: 10px 20px;
-  color: #fff;
+  color: white;
   text-decoration: none;
 }
 #main-navbar ul li a:hover {
@@ -34,5 +34,8 @@
 }
 #onpage {
   background-color: rgb(255,255,224);
+}
+
+#onpage ul li a {
   color: black;
 }
