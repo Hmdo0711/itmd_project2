@@ -36,6 +36,7 @@
   background-color: rgb(255,255,224);
 }
 
-#onpage ul {
+#onpage ul li a{
+  text-decoration: none;
   color: black;
 }
