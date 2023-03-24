@@ -50,19 +50,23 @@ body {
 #name{
   float: left; 
   width: 250px;
+  margin: 0;
 }
 
 #summary{
   float: left; 
   width: 650px;
+  margin: 0;
 }
 
 #contact_skill{
   float: left; 
-  width: 250px;	
+  width: 250px;
+  margin: 0;
 }
 
 #experience{
   float: left; 
   width: 650px;
+  margin: 0;
 }
