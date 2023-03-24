@@ -48,7 +48,7 @@ body {
 }
 
 #name{
-  color: #858861;
+  background-color: #858861;
   float: left; 
   width: 250px;
   margin: 0;
@@ -58,18 +58,18 @@ body {
   float: left; 
   width: 650px;
   margin: 0;
-  color: rgb(255,255,224;
+  background-color: rgb(255,255,224);
 }
 
 #contact_skill{
   float: left; 
   width: 250px;
   margin: 0;
-  color: rgb(255,255,224);
+  background-color: rgb(255,255,224);
 }
 
 #experience{
-  color: #858861;
+  background-color: #858861;
   float: left; 
   width: 650px;
   margin: 0;
