@@ -1,3 +1,4 @@
+/*nav bar */
 #main-navbar {
   background-color: rgb(0,100,0);
   overflow: hidden;
@@ -24,7 +25,7 @@
 #main-navbar ul li a {
   display: block;
   padding: 10px 20px;
-  color: white;
+  color: rgb(105,105,105);
   text-decoration: none;
 }
 #main-navbar ul li a:hover {
@@ -34,6 +35,34 @@
 }
 #onpage {
   background-color: rgb(255,255,224);
-  text-decoration: none;
-  color: black;
+}
+
+body {
+  background-color: rgb(255,255,224);
+}
+
+/*page1*/
+#pg1_wrapper{
+  width: 960px;
+  margin: 0 auto;
+}
+
+#name{
+  float: left; 
+  width: 250px;
+}
+
+#summary{
+  float: left; 
+  width: 650px;
+}
+
+#contact_skill{
+  float: left; 
+  width: 250px;	
+}
+
+#experience{
+  float: left; 
+  width: 650px;
 }
