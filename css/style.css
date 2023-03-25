@@ -25,8 +25,8 @@
 #main-navbar ul li a {
   display: block;
   padding: 10px 20px;
-  color: white;
-  text-decoration: none;
+  color: red;
+  font-weight: bold;
 }
 #main-navbar ul li a:hover {
   background-color: rgb(255,255,224);
@@ -56,20 +56,19 @@ ul li{
   list-style: square;
 }
 .pg1_wrapper{
-  width: 960px;
-  margin: 0 auto;
+  width: 925px;
+  margin: 50px auto;
 }
-
 .name{
-  margin-top: 10em;
+  border-style: double;
+  border-width: 12px 0px 0px 12px;
   color: white;
-  height: 222px;
+  height: 226.4px;
   padding-top: 5em;
-  text-align:center;
+  text-align: center;
   background-color: rgb(109,113,46);
   float: left; 
-  width: 250px;
-  margin: 0;
+  width: 240px;
 }
 
 .name h1{
@@ -77,21 +76,27 @@ ul li{
 }
 
 .summary{
+  border-style: double;
+  border-width: 12px 12px 0px 0px;
+  border-color:  rgb(109,113,46);
+  
   float: left; 
-  width: 650px;
+  width: 625px;
   padding-left: 25px;
   padding-top: 10px;
-  margin: 0;
+  margin-top: 4px;
   background-color: rgb(255,255,224);
 }
 
 .contact_skill{
- 
+  border-style: double;
+  border-width: 0px 0px 12px 12px;
+  border-color:  rgb(109,113,46);
   padding-top: 10px;
-  height: 595px;
+  height: 592px;
   float: left; 
-  width: 250px;
-  margin: 0;
+  width: 235px;
+  margin-left: 4px;
   background-color: rgb(255,255,224);
 }
 
@@ -100,10 +105,12 @@ ul li{
 }
 
 .experience{
+  border-style: double;
+  border-width: 0px 12px 12px 0px;
   color: white;
   background-color: rgb(109,113,46);
   float: left; 
-  width: 625px;
+  width: 605px;
   padding-left: 50px;
   padding-top: 10px;
 }
