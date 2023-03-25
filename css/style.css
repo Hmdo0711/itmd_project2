@@ -35,6 +35,9 @@
 }
 #onpage {
   background-color: rgb(255,255,224);
+}
+
+#onpage ul li a{
   color: black;
 }
 
@@ -44,39 +47,65 @@ body {
 }
 
 /*page1*/
+h3{
+  font-size: 1.5em;
+  text-align: center;
+}
+
+ul li{
+  list-style: square;
+}
 .pg1_wrapper{
   width: 960px;
   margin: 0 auto;
 }
 
 .name{
-  height: 80px;
-  padding-left: auto;
+  margin-top: 10em;
+  color: white;
+  height: 222px;
+  padding-top: 5em;
+  text-align:center;
   background-color: rgb(109,113,46);
   float: left; 
   width: 250px;
   margin: 0;
+}
+
+.name h1{
+  font-size: 2em;
 }
 
 .summary{
   float: left; 
   width: 650px;
+  padding-left: 25px;
+  padding-top: 10px;
   margin: 0;
   background-color: rgb(255,255,224);
 }
 
 .contact_skill{
-  height: 700px;
+ 
+  padding-top: 10px;
+  height: 595px;
   float: left; 
   width: 250px;
   margin: 0;
   background-color: rgb(255,255,224);
 }
 
+.contact_skill p {
+  text-align:center;
+}
+
 .experience{
+  color: white;
   background-color: rgb(109,113,46);
   float: left; 
-  width: 600px;
-  padding-left: 25px;
+  width: 625px;
+  padding-left: 50px;
   padding-top: 10px;
 }
+
+
