@@ -50,6 +50,7 @@ body {
 }
 
 .name{
+  height: 80px;
   padding-left: auto;
   background-color: rgb(109,113,46);
   float: left; 
@@ -65,6 +66,7 @@ body {
 }
 
 .contact_skill{
+  height: 700px;
   float: left; 
   width: 250px;
   margin: 0;
@@ -75,8 +77,5 @@ body {
   background-color: rgb(109,113,46);
   float: left; 
   width: 650px;
-}
-
-.experience p ul li{
-	padding: 20%;
+  padding: 20%;
 }
