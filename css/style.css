@@ -1,14 +1,14 @@
 /*nav bar */
-#main-navbar {
-  background-color: rgb(0,100,0);
+.main-navbar {
+  background-color: rgb(0,0,139);
   overflow: hidden;
 }
-#navbar-container {
+.navbar-container {
   float: left;
   width: 100%;
   position: relative;
 }
-#main-navbar ul {
+.main-navbar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -16,24 +16,24 @@
   left: 50%;
   float: left;
 }
-#main-navbar ul li {
+.main-navbar ul li {
   float: left;
   position: relative;
   right: 50%;
   display: block;
 }
-#main-navbar ul li a {
+.main-navbar ul li a {
   display: block;
   padding: 10px 20px;
-  color: rgb(105,105,105);
+  color: white;
   text-decoration: none;
 }
-#main-navbar ul li a:hover {
+.main-navbar ul li a:hover {
   background-color: rgb(255,255,224);
   color: black;
   text-decoration: underline;
 }
-#onpage {
+.onpage {
   background-color: rgb(255,255,224);
 }
 
@@ -42,35 +42,40 @@ body {
 }
 
 /*page1*/
-#pg1_wrapper{
+.pg1_wrapper{
   width: 960px;
   margin: 0 auto;
 }
 
-#name{
-  background-color: #858861;
+.name{
+  padding-left: auto;
+  background-color: rgb(109,113,46);
   float: left; 
   width: 250px;
   margin: 0;
 }
 
-#summary{
+.summary{
   float: left; 
   width: 650px;
   margin: 0;
   background-color: rgb(255,255,224);
 }
 
-#contact_skill{
+.contact_skill{
   float: left; 
   width: 250px;
   margin: 0;
   background-color: rgb(255,255,224);
 }
 
-#experience{
-  background-color: #858861;
+.experience{
+  background-color: rgb(109,113,46);
   float: left; 
   width: 650px;
-  margin: 0;
+}
+
+.experience p ul li{
+	padding: 20%;
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 }
