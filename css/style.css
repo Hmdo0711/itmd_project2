@@ -56,8 +56,13 @@ ul li{
 }
 
 h1{
+  width: 60%;
+  margin: auto;
+  margin-top: 7%;
+  border: 6px solid;
+  background-color: white;
   font-family: Impact, sans-serif;
-  color: #CE5937;
+  color: rgb(206, 89, 55);
   text-align:center;
 }
 
@@ -90,7 +95,7 @@ video{
   width: 240px;
 }
 
-.name h1{
+.name h2{
   font-size: 2em;
   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 }
