@@ -137,7 +137,7 @@ img{
 .pg2_wrapper{
   width: 100%;
 }
-.pg2_wrapper video{
+.pg2_wrapper .video{
   display: block;
   margin: auto;
   width: auto;
