@@ -134,11 +134,12 @@ video{
 }
 
 /*page2*/
-.pg2_wrapper{
+.page2{
   background-image: url(../media/pg2_background.jpg);
+}
+.pg2_wrapper{
   width: 100%;
 }
-
 
 .content-box{
   border-style:solid;
@@ -147,7 +148,7 @@ video{
   border-color: rgb(235, 140, 16);
   background: white;
   padding: 5%;
-  width: 60%;
+  width: 50%;
   margin: auto;
   margin-top: 10%;
 }
