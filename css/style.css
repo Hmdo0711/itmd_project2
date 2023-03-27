@@ -68,6 +68,10 @@ img{
   height: auto;
 }
 
+video{
+  display: block;
+  margin: auto;
+}
 
 /*page1*/
 .pg1_wrapper{
@@ -137,12 +141,7 @@ img{
 .pg2_wrapper{
   width: 100%;
 }
-.pg2_wrapper .video{
-  display: block;
-  margin: auto;
-  width: auto;
-  height: auto;
-}
+
 .content-box{
   border-style:solid;
   border-width: 0.5em;
