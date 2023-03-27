@@ -57,7 +57,7 @@ ul li{
 
 h1{
   font-family: Impact, sans-serif;
-  color: #CE5937
+  color: #CE5937;
   text-align:center;
 }
 
@@ -92,6 +92,7 @@ video{
 
 .name h1{
   font-size: 2em;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 .summary{
