@@ -46,7 +46,6 @@ body {
   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
-/*page1*/
 h3{
   font-size: 1.5em;
   text-align: center;
@@ -55,6 +54,25 @@ h3{
 ul li{
   list-style: square;
 }
+
+h1{
+  text-align:center;
+}
+
+img{
+  display: block;
+  margin: auto;
+  width: auto;
+  height: auto;
+}
+
+video{
+  display: block;
+  margin: auto;
+  width: auto;
+  height: auto;
+}
+/*page1*/
 .pg1_wrapper{
   width: 925px;
   margin: 50px auto;
@@ -114,5 +132,26 @@ ul li{
   padding-left: 50px;
   padding-top: 10px;
 }
+
+/*page2*/
+.pg2_wrapper{
+  background-image: url(../media/pg2_background.jpg);
+  width: 100%;
+}
+
+
+.content-box{
+  border-style:solid;
+  border-width: 0.5em;
+  border-radius: 25px;
+  border-color: rgb(235, 140, 16);
+  background: white;
+  padding: 5%;
+  width: 60%;
+  margin: auto;
+  margin-top: 10%;
+}
+
+
 
 
