@@ -215,3 +215,10 @@ video{
   margin: 0;
 }
 
+/*page3*/
+.page3{
+  background-image: url(../media/pg3_background.jpg);
+}
+.pg3_wrapper{
+  width: 100%;
+}
