@@ -43,7 +43,7 @@
 
 body {
   background-color: white;
-  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 h3{
@@ -107,7 +107,7 @@ video{
 
 .name h2{
   font-size: 2em;
-  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .summary{
